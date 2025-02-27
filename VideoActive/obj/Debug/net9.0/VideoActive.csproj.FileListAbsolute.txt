@@ -1,0 +1,586 @@
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\appsettings.Development.json
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\appsettings.json
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\VideoActive.staticwebassets.runtime.json
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\VideoActive.staticwebassets.endpoints.json
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\VideoActive.exe
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\VideoActive.deps.json
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\VideoActive.runtimeconfig.json
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\VideoActive.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\VideoActive.pdb
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Humanizer.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Npgsql.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\System.CodeDom.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.csproj.AssemblyReference.cache
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.AssemblyInfoInputs.cache
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.AssemblyInfo.cs
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.csproj.CoreCompileInputs.cache
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.MvcApplicationPartsAssemblyInfo.cache
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.RazorAssemblyInfo.cache
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.RazorAssemblyInfo.cs
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\scopedcss\bundle\VideoActive.styles.css
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\scopedcss\projectbundle\VideoActive.bundle.scp.css
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\jfb8ica6ez-b9sayid5wm.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\7afvcwwn7s-61n19gt1b8.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\jfcn0p69gb-xtxxf3hu2r.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\n957zkam7q-bqjiyaj88i.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\ya9vdwkyc4-c2jlpeoesf.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\b00sh29ddk-erw9l3u2r3.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\jy0fexjgzg-aexeepp0ev.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\l1j2rdc29e-d7shbmvgxk.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\6rcq2i1qjd-ausgxo2sd3.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\om7s0r7g63-k8d9w2qqmf.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\dxbfdxedb0-cosvhxvwiu.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\fxd53wwl10-ub07r2b239.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\0dujezoi3j-fvhpjtyr6v.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\5wy1eci1dx-b7pk76d08c.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\wv2bzl3wja-fsbi9cje9m.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\eespw81hzw-rzd6atqjts.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\sn2xtfwgsj-ee0r1s7dh0.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\iwhrjr7p4y-dxx9fxp4il.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\5s28cm22pj-jd9uben2k1.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\20voim0y8d-khv3u5hwcm.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\avqynsftx2-r4e9w2rdcm.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\z5n5w9opi2-lcd1t2u6c8.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\oycjk0dexg-c2oey78nd0.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\al0usapyda-tdbxkamptv.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\8f19z1uj9h-j5mq2jizvt.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\5k7pyzxvqt-06098lyss8.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\rc9fj8kgap-nvvlpmu67g.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\pcgdptahx9-s35ty4nyc5.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\agegncwih3-pj5nd1wqec.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\b14a09lx2l-46ein0sx1k.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\lu0ut6d70a-v0zj4ognzu.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\mq8vw5tbf4-37tfw0ft22.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\d9rady52y4-hrwsygsryq.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\isxh9nurjp-pk9g2wxc8p.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\djyp0yqm5i-ft3s53vfgj.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\w8io4vwmz4-6cfz1n2cew.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\riw07o97d6-6pdc2jztkx.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\ey4rw9rnaf-493y06b0oq.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\gkp6fwbgb8-iovd86k7lj.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\pf46io6nn3-vr1egmr9el.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\uxef4keiq4-kbrnm935zg.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\9xpssy52ok-jj8uyg4cgr.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\tpnrnrdn1d-y7v9cxd14o.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\zfw7yndj2u-notf2xhcfb.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\t5c33fhcte-h1s4sie4z3.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\omyj5nlz7y-63fj8s7r0e.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\bkq0fs6dcc-0j3bgjxly4.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\367dyofdjv-47otxtyo56.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\60moa9ljlp-4v8eqarkd7.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\lkmkqqbu37-356vix0kms.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\ko22g9mi9v-83jwlth58m.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\p9kqhwqm90-mrlpezrjn3.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\xs138dm3gw-lzl9nlhx6b.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\9kppif6rqd-ag7o75518u.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\98vhg27ync-x0q3zqp4vz.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\fzl1zx10m1-0i3buxo5is.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\wxxkk0z4p0-o1o13a6vjx.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\g09n6qhcge-ttgo8qnofa.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\ngbqxwuwce-2z0ns9nrw6.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\90z3sw0mtr-muycvpuwrr.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\zu0wmfhhog-87fc7y1x7t.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\8jwod8si2w-mlv21k5csn.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\0ikoewx5u1-mhspv2suy9.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\compressed\x3kyx1c95c-mhspv2suy9.gz
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\staticwebassets.build.json
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\staticwebassets.development.json
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.VideoActive.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.VideoActive.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.build.VideoActive.props
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.VideoActive.props
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.VideoActive.props
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoAct.F5BC22C5.Up2Date
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\refint\VideoActive.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.pdb
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\VideoActive.genruntimeconfig.cache
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\obj\Debug\net9.0\ref\VideoActive.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Project\VideoActive\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\appsettings.json
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\VideoActive.staticwebassets.runtime.json
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\VideoActive.staticwebassets.endpoints.json
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\VideoActive.exe
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\VideoActive.deps.json
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\VideoActive.runtimeconfig.json
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\VideoActive.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\VideoActive.pdb
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Humanizer.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Npgsql.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.AssemblyInfoInputs.cache
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.AssemblyInfo.cs
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.RazorAssemblyInfo.cache
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.RazorAssemblyInfo.cs
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\scopedcss\bundle\VideoActive.styles.css
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\scopedcss\projectbundle\VideoActive.bundle.scp.css
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\jfb8ica6ez-b9sayid5wm.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\7afvcwwn7s-61n19gt1b8.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\jfcn0p69gb-xtxxf3hu2r.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\n957zkam7q-bqjiyaj88i.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\ya9vdwkyc4-c2jlpeoesf.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\b00sh29ddk-erw9l3u2r3.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\jy0fexjgzg-aexeepp0ev.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\l1j2rdc29e-d7shbmvgxk.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\6rcq2i1qjd-ausgxo2sd3.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\om7s0r7g63-k8d9w2qqmf.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\dxbfdxedb0-cosvhxvwiu.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\fxd53wwl10-ub07r2b239.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\0dujezoi3j-fvhpjtyr6v.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\5wy1eci1dx-b7pk76d08c.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\wv2bzl3wja-fsbi9cje9m.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\eespw81hzw-rzd6atqjts.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\sn2xtfwgsj-ee0r1s7dh0.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\iwhrjr7p4y-dxx9fxp4il.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\5s28cm22pj-jd9uben2k1.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\20voim0y8d-khv3u5hwcm.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\avqynsftx2-r4e9w2rdcm.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\z5n5w9opi2-lcd1t2u6c8.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\oycjk0dexg-c2oey78nd0.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\al0usapyda-tdbxkamptv.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\8f19z1uj9h-j5mq2jizvt.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\5k7pyzxvqt-06098lyss8.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\rc9fj8kgap-nvvlpmu67g.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\pcgdptahx9-s35ty4nyc5.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\agegncwih3-pj5nd1wqec.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\b14a09lx2l-46ein0sx1k.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\lu0ut6d70a-v0zj4ognzu.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\mq8vw5tbf4-37tfw0ft22.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\d9rady52y4-hrwsygsryq.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\isxh9nurjp-pk9g2wxc8p.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\djyp0yqm5i-ft3s53vfgj.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\w8io4vwmz4-6cfz1n2cew.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\riw07o97d6-6pdc2jztkx.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\ey4rw9rnaf-493y06b0oq.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\gkp6fwbgb8-iovd86k7lj.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\pf46io6nn3-vr1egmr9el.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\uxef4keiq4-kbrnm935zg.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\9xpssy52ok-jj8uyg4cgr.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\tpnrnrdn1d-y7v9cxd14o.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\zfw7yndj2u-notf2xhcfb.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\t5c33fhcte-h1s4sie4z3.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\omyj5nlz7y-63fj8s7r0e.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\bkq0fs6dcc-0j3bgjxly4.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\367dyofdjv-47otxtyo56.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\60moa9ljlp-4v8eqarkd7.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\lkmkqqbu37-356vix0kms.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\ko22g9mi9v-83jwlth58m.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\p9kqhwqm90-mrlpezrjn3.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\xs138dm3gw-lzl9nlhx6b.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\9kppif6rqd-ag7o75518u.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\98vhg27ync-x0q3zqp4vz.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\fzl1zx10m1-0i3buxo5is.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\wxxkk0z4p0-o1o13a6vjx.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\g09n6qhcge-ttgo8qnofa.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\ngbqxwuwce-2z0ns9nrw6.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\90z3sw0mtr-muycvpuwrr.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\zu0wmfhhog-87fc7y1x7t.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\8jwod8si2w-mlv21k5csn.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\0ikoewx5u1-mhspv2suy9.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\compressed\x3kyx1c95c-mhspv2suy9.gz
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.VideoActive.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.VideoActive.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.build.VideoActive.props
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.VideoActive.props
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.VideoActive.props
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoAct.F5BC22C5.Up2Date
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\refint\VideoActive.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.pdb
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\VideoActive.genruntimeconfig.cache
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\obj\Debug\net9.0\ref\VideoActive.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HUAWEI\Downloads\VideoActive\VideoActive\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\appsettings.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\VideoActive.staticwebassets.endpoints.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\VideoActive.staticwebassets.runtime.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\VideoActive.exe
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\VideoActive.deps.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\VideoActive.runtimeconfig.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\VideoActive.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\VideoActive.pdb
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Humanizer.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Npgsql.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.AssemblyInfoInputs.cache
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.AssemblyInfo.cs
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.RazorAssemblyInfo.cache
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.RazorAssemblyInfo.cs
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.sourcelink.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\scopedcss\bundle\VideoActive.styles.css
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\scopedcss\projectbundle\VideoActive.bundle.scp.css
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\jfb8ica6ez-b9sayid5wm.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\7afvcwwn7s-61n19gt1b8.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\jfcn0p69gb-xtxxf3hu2r.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\n957zkam7q-bqjiyaj88i.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\ya9vdwkyc4-c2jlpeoesf.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\b00sh29ddk-erw9l3u2r3.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\jy0fexjgzg-aexeepp0ev.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\l1j2rdc29e-d7shbmvgxk.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\6rcq2i1qjd-ausgxo2sd3.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\om7s0r7g63-k8d9w2qqmf.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\dxbfdxedb0-cosvhxvwiu.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\fxd53wwl10-ub07r2b239.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\0dujezoi3j-fvhpjtyr6v.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\5wy1eci1dx-b7pk76d08c.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\wv2bzl3wja-fsbi9cje9m.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\eespw81hzw-rzd6atqjts.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\sn2xtfwgsj-ee0r1s7dh0.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\iwhrjr7p4y-dxx9fxp4il.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\5s28cm22pj-jd9uben2k1.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\20voim0y8d-khv3u5hwcm.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\avqynsftx2-r4e9w2rdcm.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\z5n5w9opi2-lcd1t2u6c8.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\oycjk0dexg-c2oey78nd0.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\al0usapyda-tdbxkamptv.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\8f19z1uj9h-j5mq2jizvt.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\5k7pyzxvqt-06098lyss8.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\rc9fj8kgap-nvvlpmu67g.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\pcgdptahx9-s35ty4nyc5.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\agegncwih3-pj5nd1wqec.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\b14a09lx2l-46ein0sx1k.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\lu0ut6d70a-v0zj4ognzu.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\mq8vw5tbf4-37tfw0ft22.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\d9rady52y4-hrwsygsryq.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\isxh9nurjp-pk9g2wxc8p.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\djyp0yqm5i-ft3s53vfgj.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\w8io4vwmz4-6cfz1n2cew.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\riw07o97d6-6pdc2jztkx.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\ey4rw9rnaf-493y06b0oq.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\gkp6fwbgb8-iovd86k7lj.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\pf46io6nn3-vr1egmr9el.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\uxef4keiq4-kbrnm935zg.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\9xpssy52ok-jj8uyg4cgr.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\tpnrnrdn1d-y7v9cxd14o.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\zfw7yndj2u-notf2xhcfb.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\t5c33fhcte-h1s4sie4z3.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\omyj5nlz7y-63fj8s7r0e.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\bkq0fs6dcc-0j3bgjxly4.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\367dyofdjv-47otxtyo56.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\60moa9ljlp-4v8eqarkd7.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\lkmkqqbu37-356vix0kms.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\ko22g9mi9v-83jwlth58m.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\p9kqhwqm90-mrlpezrjn3.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\xs138dm3gw-lzl9nlhx6b.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\9kppif6rqd-ag7o75518u.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\98vhg27ync-x0q3zqp4vz.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\fzl1zx10m1-0i3buxo5is.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\wxxkk0z4p0-o1o13a6vjx.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\g09n6qhcge-ttgo8qnofa.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\ngbqxwuwce-2z0ns9nrw6.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\90z3sw0mtr-muycvpuwrr.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\zu0wmfhhog-87fc7y1x7t.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\8jwod8si2w-mlv21k5csn.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\0ikoewx5u1-mhspv2suy9.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\compressed\x3kyx1c95c-mhspv2suy9.gz
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.VideoActive.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.VideoActive.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.build.VideoActive.props
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.VideoActive.props
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.VideoActive.props
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoAct.F5BC22C5.Up2Date
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\refint\VideoActive.dll
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.pdb
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.genruntimeconfig.cache
+C:\Users\HUAWEI\Downloads\VideoActive\video-call-backend\VideoActive\obj\Debug\net9.0\ref\VideoActive.dll
