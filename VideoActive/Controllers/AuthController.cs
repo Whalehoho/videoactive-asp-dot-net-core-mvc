@@ -49,7 +49,7 @@ public class AuthController : ControllerBase
         Response.Cookies.Append("AuthToken", token, new CookieOptions
         {
             HttpOnly = true,
-            Secure = true, // Set to false for local dev without HTTPS
+            Secure = false, // Set to false for local dev without HTTPS
             SameSite = SameSiteMode.Strict,
             Expires = DateTime.UtcNow.AddHours(1)
         });
@@ -120,4 +120,25 @@ public class AuthController : ControllerBase
         catch
         {return null;}
     }
+
+    [HttpGet("check-session")]
+    public IActionResult CheckSession()
+    {
+        var authHeader = Request.Headers["Authorization"].ToString();
+        if (string.IsNullOrEmpty(authHeader) || !authHeader.StartsWith("Bearer "))
+        {
+            return Unauthorized(new { error = "Missing token" });
+        }
+
+        var token = authHeader.Substring("Bearer ".Length).Trim();
+        var principal = ValidateJwtToken(token);
+        if (principal == null)
+        {
+            return Unauthorized(new { error = "Invalid or expired token" });
+        }
+
+        var email = principal.FindFirst(ClaimTypes.Email)?.Value;
+        return Ok(new { isAuthenticated = true, email });
+    }
+
 }
