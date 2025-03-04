@@ -783,3 +783,4 @@ D:\APU\Y3S2\DDAC\project\video-call-backend-main\VideoActive\obj\Debug\net9.0\re
 D:\APU\Y3S2\DDAC\project\video-call-backend-main\VideoActive\obj\Debug\net9.0\VideoActive.pdb
 D:\APU\Y3S2\DDAC\project\video-call-backend-main\VideoActive\obj\Debug\net9.0\VideoActive.genruntimeconfig.cache
 D:\APU\Y3S2\DDAC\project\video-call-backend-main\VideoActive\obj\Debug\net9.0\ref\VideoActive.dll
+D:\APU\Y3S2\DDAC\project\video-call-backend-main\VideoActive\obj\Debug\net9.0\VideoActive.sourcelink.json
