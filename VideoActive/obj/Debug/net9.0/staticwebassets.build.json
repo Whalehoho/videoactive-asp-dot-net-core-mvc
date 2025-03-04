@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1bq1Zl+RFtpP3Wjxs3sbEffdeGramSNsJmlASeOVSOE=",
+  "Hash": "vAQ3K4SR/Wn0uv8krLFraJG3JsEfgzSKN/atDg01RjE=",
   "Source": "VideoActive",
   "BasePath": "_content/VideoActive",
   "Mode": "Default",
@@ -2724,6 +2724,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\APU\\Y3S2\\DDAC\\project\\video-call-backend-main\\VideoActive\\wwwroot\\uploads\\4499b0d4-b98c-4c69-bc7f-317a293b50e8_1.jpg",
+      "SourceId": "VideoActive",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\APU\\Y3S2\\DDAC\\project\\video-call-backend-main\\VideoActive\\wwwroot\\",
+      "BasePath": "_content/VideoActive",
+      "RelativePath": "uploads/4499b0d4-b98c-4c69-bc7f-317a293b50e8_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rje36vswrc",
+      "Integrity": "mTHB1xORcqjH0yIfIm6YMWDDF6n1kMAdDwAxqAl+Bws=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\4499b0d4-b98c-4c69-bc7f-317a293b50e8_1.jpg"
     }
   ],
   "Endpoints": [
@@ -21282,6 +21303,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-2HU/xneLnzk1+0gLVt9w3aTEo9abhtzWkmuVdffRieg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4499b0d4-b98c-4c69-bc7f-317a293b50e8_1.jpg",
+      "AssetFile": "D:\\APU\\Y3S2\\DDAC\\project\\video-call-backend-main\\VideoActive\\wwwroot\\uploads\\4499b0d4-b98c-4c69-bc7f-317a293b50e8_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mTHB1xORcqjH0yIfIm6YMWDDF6n1kMAdDwAxqAl+Bws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 14:06:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mTHB1xORcqjH0yIfIm6YMWDDF6n1kMAdDwAxqAl+Bws="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4499b0d4-b98c-4c69-bc7f-317a293b50e8_1.rje36vswrc.jpg",
+      "AssetFile": "D:\\APU\\Y3S2\\DDAC\\project\\video-call-backend-main\\VideoActive\\wwwroot\\uploads\\4499b0d4-b98c-4c69-bc7f-317a293b50e8_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mTHB1xORcqjH0yIfIm6YMWDDF6n1kMAdDwAxqAl+Bws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 14:06:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rje36vswrc"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/4499b0d4-b98c-4c69-bc7f-317a293b50e8_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mTHB1xORcqjH0yIfIm6YMWDDF6n1kMAdDwAxqAl+Bws="
         }
       ]
     },

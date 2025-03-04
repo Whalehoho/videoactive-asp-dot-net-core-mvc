@@ -257,6 +257,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "D:\\APU\\Y3S2\\DDAC\\project\\video-call-backend-main\\VideoActive\\wwwroot\\uploads\\4499b0d4-b98c-4c69-bc7f-317a293b50e8_1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4499b0d4-b98c-4c69-bc7f-317a293b50e8_1.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.VideoActive.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
