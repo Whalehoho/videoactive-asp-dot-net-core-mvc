@@ -141,25 +141,13 @@ public class AuthController : ControllerBase
         catch
         {return null;}
     }
-
-    [HttpGet("check-session")]
-    public IActionResult CheckSession()
+    [HttpPost("logout")]
+    public IActionResult Logout()
     {
-        var authHeader = Request.Headers["Authorization"].ToString();
-        if (string.IsNullOrEmpty(authHeader) || !authHeader.StartsWith("Bearer "))
-        {
-            return Unauthorized(new { error = "Missing token" });
-        }
+        // Remove authentication cookies
+        Response.Cookies.Delete(".AspNetCore.Cookies");
+        Response.Cookies.Delete("AuthToken");
 
-        var token = authHeader.Substring("Bearer ".Length).Trim();
-        var principal = ValidateJwtToken(token);
-        if (principal == null)
-        {
-            return Unauthorized(new { error = "Invalid or expired token" });
-        }
-
-        var email = principal.FindFirst(ClaimTypes.Email)?.Value;
-        return Ok(new { isAuthenticated = true, email });
+        return Ok(new { message = "Logged out successfully" });
     }
-
 }
