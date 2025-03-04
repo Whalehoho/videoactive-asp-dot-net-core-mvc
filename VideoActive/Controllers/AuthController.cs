@@ -98,7 +98,7 @@ public class AuthController : ControllerBase
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
-    [HttpGet("validate-token")]
+    [HttpGet("getUser")]
     public IActionResult ValidateToken()
     {
         var authHeader = Request.Headers["Authorization"].ToString();
