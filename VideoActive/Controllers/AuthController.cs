@@ -17,7 +17,7 @@ public class AuthController : ControllerBase
         _config = config;
     }
 
-    [HttpGet("google-login")]
+    [HttpGet("google-login")] // login from google
     public IActionResult GoogleLogin()
     {
         var redirectUrl = Url.Action(nameof(GoogleResponse), "Auth");
@@ -25,7 +25,7 @@ public class AuthController : ControllerBase
         return Challenge(properties, GoogleDefaults.AuthenticationScheme);
     }
 
-    [HttpGet("google-response")]
+    [HttpGet("google-response")] // redirect back to front end
     public async Task<IActionResult> GoogleResponse()
     {
         var authenticateResult = await HttpContext.AuthenticateAsync();
@@ -77,7 +77,7 @@ public class AuthController : ControllerBase
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
-    [HttpGet("validate-token")]
+    [HttpGet("validate-token")] // validate the token and get User info and if principal is yes retrieve user info from db
     public IActionResult ValidateToken()
     {
         var authHeader = Request.Headers["Authorization"].ToString();
@@ -95,7 +95,8 @@ public class AuthController : ControllerBase
 
         var user = new
         {
-            Name = principal.FindFirst(ClaimTypes.Email)?.Value
+            email = principal.FindFirst(ClaimTypes.Email)?.Value,
+            name = principal.FindFirst(ClaimTypes.Name)?.Value
         };
 
         return Ok(new { user });
@@ -120,25 +121,14 @@ public class AuthController : ControllerBase
         catch
         {return null;}
     }
-
-    [HttpGet("check-session")]
-    public IActionResult CheckSession()
+    [HttpPost("logout")]
+    public IActionResult Logout()
     {
-        var authHeader = Request.Headers["Authorization"].ToString();
-        if (string.IsNullOrEmpty(authHeader) || !authHeader.StartsWith("Bearer "))
-        {
-            return Unauthorized(new { error = "Missing token" });
-        }
+        // Remove authentication cookies
+        Response.Cookies.Delete(".AspNetCore.Cookies");
+        Response.Cookies.Delete("AuthToken");
 
-        var token = authHeader.Substring("Bearer ".Length).Trim();
-        var principal = ValidateJwtToken(token);
-        if (principal == null)
-        {
-            return Unauthorized(new { error = "Invalid or expired token" });
-        }
-
-        var email = principal.FindFirst(ClaimTypes.Email)?.Value;
-        return Ok(new { isAuthenticated = true, email });
+        return Ok(new { message = "Logged out successfully" });
     }
 
 }
