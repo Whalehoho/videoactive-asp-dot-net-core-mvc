@@ -4,6 +4,11 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using VideoActive.Models;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+using System.Text.Json;
 
 
 [Route("api/user")]
@@ -12,15 +17,49 @@ public class UserController : ControllerBase   // All comment part is for db
 {
     // private readonly ApplicationDbContext _context; // ✅ Inject database context
     private readonly IConfiguration _config;
+    private readonly ApplicationDbContext _context;
 
-    public UserController(IConfiguration config
+    public UserController(IConfiguration config, ApplicationDbContext context
         // ApplicationDbContext context for DB
         )
     {
         _config = config;
+        _context = context;
 
         // _context = context;
     }
+
+
+    [HttpGet("getUser")]
+    [Authorize] // Ensures only authenticated users can access this endpoint
+    public async Task<IActionResult> GetUserProfile()
+    {
+        // Retrieve email from JWT token
+        var email = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+        
+        if (string.IsNullOrEmpty(email))
+            return Unauthorized(new { message = "User is not authenticated" });
+
+        // Fetch user from database
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+        
+        if (user == null)
+            return NotFound(new { message = "User not found" });
+
+        // Return user details
+        return Ok(new
+        {
+            user.UID,
+            user.Username,
+            user.Email,
+            user.ProfilePic,
+            user.Status,
+            user.Description,
+            user.Gender,
+            user.CreatedAt
+        });
+    }
+
 
     [HttpPost("updateUser")]
     public async Task<IActionResult> UpdateUser()
@@ -53,15 +92,92 @@ public class UserController : ControllerBase   // All comment part is for db
         {
             return BadRequest(new { message = "Invalid input" });
         }
+      
 
-        Console.WriteLine($"Received update request from: {userEmail}");
-        Console.WriteLine($"Request Body: {body}");
+        // ✅ Parse the request body into a dictionary
+        var requestData = System.Text.Json.JsonSerializer.Deserialize<Dictionary<string, object>>(body);
+
+        if (requestData == null)
+        {
+            return BadRequest(new { message = "Invalid JSON format" });
+        }
+
+        // ✅ Find the user in the database
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == userEmail);
+        if (user == null)
+        {
+            return NotFound(new { message = "User not found" });
+        }
+
+        //Username
+        if (requestData.ContainsKey("username"))
+        {
+            if (requestData["username"] is string newUsername && !string.IsNullOrWhiteSpace(newUsername))
+            {
+                user.Username = newUsername;
+            }
+            else
+            {
+                return BadRequest(new { message = "Invalid username value" });
+            }
+        }
+        
+        //Gender
+        if (requestData.ContainsKey("gender"))
+        {
+            try
+            {
+                if (requestData["gender"] is JsonElement jsonElement)
+                {
+                    user.Gender = jsonElement.GetBoolean();  // ✅ Correctly extracts bool value
+                }
+                else if (requestData["gender"] is bool genderValue)
+                {
+                    user.Gender = genderValue;
+                }
+                else
+                {
+                    return BadRequest(new { message = "Invalid gender value, must be true or false" });
+                }
+            }
+            catch
+            {
+                return BadRequest(new { message = "Invalid gender value, must be true or false" });
+            }
+        }
+
+        
+        //Description
+        if (requestData.ContainsKey("description"))
+        {
+            if (requestData["description"] is JsonElement jsonElement && jsonElement.ValueKind == JsonValueKind.String)
+            {
+                user.Description = jsonElement.GetString();  // ✅ Extracts description safely
+            }
+            else if (requestData["description"] is string newDescription)
+            {
+                user.Description = newDescription;
+            }
+            else
+            {
+                return BadRequest(new { message = "Invalid description value" });
+            }
+        }
+
+
+        await _context.SaveChangesAsync();
 
         return Ok(new
         {
             message = "User updated successfully",
-            data = body 
-            // data{user {email = userEmail, name = userName, gender = userGender, description = userDescription}}
+            user = new
+            {
+                user.UID,
+                user.Username,
+                user.Email,
+                Gender = user.Gender.HasValue ? (user.Gender.Value ? "Male" : "Female") : "Not Specified",
+                user.Description
+            }
         });
     }
 
@@ -89,6 +205,7 @@ public class UserController : ControllerBase   // All comment part is for db
             return null;
         }
     }
+
 
     [HttpPost("updateImage")]
     public async Task<IActionResult> UpdateImage(IFormFile file)
@@ -155,10 +272,11 @@ public class UserController : ControllerBase   // All comment part is for db
     }
 }
 
+
 // ✅ Create a DTO (Data Transfer Object) for update request
-// public class UpdateUserRequest
-// {
-//     public string Name { get; set; }
-//     public string Gender { get; set; }
-//     public string Description { get; set; }
-// }
+ public class UpdateUserRequest
+ {
+     public string? Username { get; set; }
+     public bool? Gender { get; set; }
+     public string? Description { get; set; }
+ }

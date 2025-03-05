@@ -24,6 +24,11 @@ namespace VideoActive.Models
         [Required]
         public UserStatus Status { get; set; } = UserStatus.Offline;
 
+        [StringLength(300)]
+        public string? Description {get; set;}
+
+        public bool? Gender {get; set;}
+
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
