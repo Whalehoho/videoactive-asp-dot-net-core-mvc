@@ -17,41 +17,41 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VideoActive
 build_property.RootNamespace = VideoActive
-build_property.ProjectDir = D:\APU\Y3S2\DDAC\project\video-call-backend-main\VideoActive\
+build_property.ProjectDir = C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Assignment\video-active-server\video-call-backend\VideoActive\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\APU\Y3S2\DDAC\project\video-call-backend-main\VideoActive
+build_property.MSBuildProjectDirectory = C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Assignment\video-active-server\video-call-backend\VideoActive
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/APU/Y3S2/DDAC/project/video-call-backend-main/VideoActive/Views/Home/Index.cshtml]
+[C:/Data/APU_degree3-sem2/Designing and Developing Applications on the Cloud/Assignment/video-active-server/video-call-backend/VideoActive/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/APU/Y3S2/DDAC/project/video-call-backend-main/VideoActive/Views/Home/Privacy.cshtml]
+[C:/Data/APU_degree3-sem2/Designing and Developing Applications on the Cloud/Assignment/video-active-server/video-call-backend/VideoActive/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/APU/Y3S2/DDAC/project/video-call-backend-main/VideoActive/Views/Shared/Error.cshtml]
+[C:/Data/APU_degree3-sem2/Designing and Developing Applications on the Cloud/Assignment/video-active-server/video-call-backend/VideoActive/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/APU/Y3S2/DDAC/project/video-call-backend-main/VideoActive/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Data/APU_degree3-sem2/Designing and Developing Applications on the Cloud/Assignment/video-active-server/video-call-backend/VideoActive/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/APU/Y3S2/DDAC/project/video-call-backend-main/VideoActive/Views/_ViewImports.cshtml]
+[C:/Data/APU_degree3-sem2/Designing and Developing Applications on the Cloud/Assignment/video-active-server/video-call-backend/VideoActive/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/APU/Y3S2/DDAC/project/video-call-backend-main/VideoActive/Views/_ViewStart.cshtml]
+[C:/Data/APU_degree3-sem2/Designing and Developing Applications on the Cloud/Assignment/video-active-server/video-call-backend/VideoActive/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/APU/Y3S2/DDAC/project/video-call-backend-main/VideoActive/Views/Shared/_Layout.cshtml]
+[C:/Data/APU_degree3-sem2/Designing and Developing Applications on the Cloud/Assignment/video-active-server/video-call-backend/VideoActive/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-76kh7h3lld

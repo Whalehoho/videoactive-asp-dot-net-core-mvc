@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\APU\\Y3S2\\DDAC\\project\\video-call-backend-main\\VideoActive\\VideoActive.csproj": {}
+    "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\VideoActive.csproj": {}
   },
   "projects": {
-    "D:\\APU\\Y3S2\\DDAC\\project\\video-call-backend-main\\VideoActive\\VideoActive.csproj": {
+    "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\VideoActive.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\APU\\Y3S2\\DDAC\\project\\video-call-backend-main\\VideoActive\\VideoActive.csproj",
+        "projectUniqueName": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\VideoActive.csproj",
         "projectName": "VideoActive",
-        "projectPath": "D:\\APU\\Y3S2\\DDAC\\project\\video-call-backend-main\\VideoActive\\VideoActive.csproj",
-        "packagesPath": "C:\\Users\\mingj\\.nuget\\packages\\",
-        "outputPath": "D:\\APU\\Y3S2\\DDAC\\project\\video-call-backend-main\\VideoActive\\obj\\",
+        "projectPath": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\VideoActive.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mingj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

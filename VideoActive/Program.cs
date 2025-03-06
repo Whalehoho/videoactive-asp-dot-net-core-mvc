@@ -10,6 +10,7 @@ using System.Threading;
 using VideoActive.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
+using VideoActive.WebSocketHandlers;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
@@ -33,7 +34,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // 👈 Specify allowed frontend URL
+        policy.WithOrigins("http://localhost:3001") // 👈 Specify allowed frontend URL
               .AllowCredentials() // 👈 Allow cookies/tokens to be sent
                 .AllowAnyHeader()
                 .AllowAnyMethod();
@@ -91,24 +92,30 @@ app.UseAuthorization();
 // ✅ WebSocket Support
 app.UseWebSockets();
 
-// Dictionary to store connected WebSocket clients
-Dictionary<string, WebSocket> connectedClients = new Dictionary<string, WebSocket>();
-
-// ✅ WebSocket Handling Middleware
 app.Use(async (context, next) =>
 {
     if (context.WebSockets.IsWebSocketRequest)
     {
+        var path = context.Request.Path.Value;
+        var query = context.Request.Query;
+
         var socket = await context.WebSockets.AcceptWebSocketAsync();
-        var clientId = Guid.NewGuid().ToString();
-        connectedClients.Add(clientId, socket);
 
-        var clientIdMessage = new { type = "client-id", clientId = clientId };
-        await socket.SendAsync(new ArraySegment<byte>(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(clientIdMessage))),
-            WebSocketMessageType.Text, true, CancellationToken.None);
-
-        await BroadcastConnectedClients();
-        await HandleWebSocketConnection(socket, clientId);
+        // if (path == "/ws/direct")
+        // {
+        //     string? clientId = query.ContainsKey("clientId") ? query["clientId"].ToString() : null;
+        //     await DirectCallHandler.HandleWebSocketAsync(socket, clientId);
+        // }
+        // else 
+        if (path == "/ws/random")
+        {
+            Console.WriteLine("Random call");
+            await RandomCallHandler.HandleWebSocketAsync(socket);
+        }
+        else
+        {
+            await socket.CloseAsync(WebSocketCloseStatus.PolicyViolation, "Invalid path", CancellationToken.None);
+        }
     }
     else
     {
@@ -116,76 +123,6 @@ app.Use(async (context, next) =>
     }
 });
 
-// ✅ WebSocket Connection Handling
-async Task HandleWebSocketConnection(WebSocket socket, string clientId)
-{
-    var buffer = new byte[8192];
-    var messageBuilder = new StringBuilder();
-
-    try
-    {
-        while (socket.State == WebSocketState.Open)
-        {
-            var result = await socket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
-
-            if (result.MessageType == WebSocketMessageType.Close)
-            {
-                connectedClients.Remove(clientId);
-                await socket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Closed by the client", CancellationToken.None);
-                await BroadcastConnectedClients();
-            }
-            else
-            {
-                messageBuilder.Append(Encoding.UTF8.GetString(buffer, 0, result.Count));
-
-                if (result.EndOfMessage)
-                {
-                    var message = messageBuilder.ToString();
-                    try
-                    {
-                        await BroadcastMessageToClients(clientId, message);
-                    }
-                    catch (JsonException ex)
-                    {
-                        Console.WriteLine($"Error parsing JSON: {ex.Message}");
-                    }
-
-                    messageBuilder.Clear();
-                }
-            }
-        }
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"WebSocket Error: {ex.Message}");
-    }
-}
-
-// ✅ Broadcast message to all connected WebSocket clients
-async Task BroadcastMessageToClients(string fromClientId, string message)
-{
-    foreach (var client in connectedClients)
-    {
-        if (client.Key != fromClientId)
-        {
-            var buffer = Encoding.UTF8.GetBytes(message);
-            await client.Value.SendAsync(new ArraySegment<byte>(buffer), WebSocketMessageType.Text, true, CancellationToken.None);
-        }
-    }
-}
-
-// ✅ Send the list of connected WebSocket clients
-async Task BroadcastConnectedClients()
-{
-    var clientListMessage = new { type = "connected-clients", clients = connectedClients.Keys.ToList() };
-    var message = JsonConvert.SerializeObject(clientListMessage);
-
-    foreach (var client in connectedClients)
-    {
-        var buffer = Encoding.UTF8.GetBytes(message);
-        await client.Value.SendAsync(new ArraySegment<byte>(buffer), WebSocketMessageType.Text, true, CancellationToken.None);
-    }
-}
 
 // ✅ Configure static files & MVC routes
 app.UseStaticFiles();

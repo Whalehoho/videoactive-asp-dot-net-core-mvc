@@ -67,7 +67,7 @@ public class AuthController : ControllerBase
             Expires = DateTime.UtcNow.AddHours(1)
         });
 
-        return Redirect("http://localhost:3000/home");
+        return Redirect("http://localhost:3001/home");
     }
 
     [HttpGet("getUser")]
