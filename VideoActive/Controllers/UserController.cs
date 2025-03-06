@@ -169,7 +169,7 @@ public class UserController : ControllerBase   // All comment part is for db
 
         return Ok(new
         {
-            message = "User updated successfully",
+            message = "success",
             user = new
             {
                 user.UID,

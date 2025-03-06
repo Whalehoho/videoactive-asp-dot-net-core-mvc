@@ -98,8 +98,9 @@ public class AuthController : ControllerBase
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
+
     [HttpGet("getUser")]
-    public IActionResult ValidateToken()
+    public async Task<IActionResult> ValidateToken()
     {
         var authHeader = Request.Headers["Authorization"].ToString();
         if (string.IsNullOrEmpty(authHeader) || !authHeader.StartsWith("Bearer "))
@@ -114,16 +115,36 @@ public class AuthController : ControllerBase
             return Unauthorized(new { error = "Invalid token" });
         }
 
-        var user = new
+        // ✅ Extract email from validated token (not User.Claims)
+        var email = principal.FindFirst(ClaimTypes.Email)?.Value;
+        if (string.IsNullOrEmpty(email))
         {
-            Name = principal.FindFirst(ClaimTypes.Email)?.Value
-        };
+            return Unauthorized(new { message = "User email not found in token" });
+        }
 
-        return Ok(new { user });
+        // ✅ Fetch user from database (Fixed async issue)
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+        if (user == null)
+        {
+            return NotFound(new { message = "User not found" });
+        }
+        // ✅ Return user details
+        return Ok(new
+        {
+            user.UID,
+            user.Username,
+            user.Email,
+            user.ProfilePic,
+            user.Status,
+            user.Description,
+            Gender = user.Gender.HasValue ? (user.Gender.Value ? "Male" : "Female") : "Not specified",
+            user.CreatedAt
+        });
     }
 
-        private ClaimsPrincipal? ValidateJwtToken(string token)
-        {
+    // ✅ Fix: Ensure `ValidateJwtToken` properly validates the JWT
+    private ClaimsPrincipal? ValidateJwtToken(string token)
+    {
         var key = Encoding.UTF8.GetBytes(_config["JwtSettings:Key"]);
         var tokenHandler = new JwtSecurityTokenHandler();
         var validationParameters = new TokenValidationParameters
@@ -136,11 +157,17 @@ public class AuthController : ControllerBase
             ValidAudience = _config["JwtSettings:Audience"],
             ValidateLifetime = true
         };
-        try{
-            return tokenHandler.ValidateToken(token, validationParameters, out _);}
+
+        try
+        {
+            return tokenHandler.ValidateToken(token, validationParameters, out _);
+        }
         catch
-        {return null;}
+        {
+            return null;
+        }
     }
+
     [HttpPost("logout")]
     public IActionResult Logout()
     {
