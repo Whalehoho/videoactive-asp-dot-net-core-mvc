@@ -175,7 +175,8 @@ public class UserController : ControllerBase   // All comment part is for db
                 user.UID,
                 user.Username,
                 user.Email,
-                Gender = user.Gender.HasValue ? (user.Gender.Value ? "Male" : "Female") : "Not Specified",
+                user.Gender,
+                // Gender = user.Gender.HasValue ? (user.Gender.Value) : "Not Specified",
                 user.Description
             }
         });

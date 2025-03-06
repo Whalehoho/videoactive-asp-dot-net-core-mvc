@@ -137,7 +137,8 @@ public class AuthController : ControllerBase
             user.ProfilePic,
             user.Status,
             user.Description,
-            Gender = user.Gender.HasValue ? (user.Gender.Value ? "Male" : "Female") : "Not specified",
+            gender = user.Gender, //Will return null, or the bool value.
+            // Gender = user.Gender.HasValue ? (user.Gender.Value ? "Male" : "Female") : "Not specified",
             user.CreatedAt
         });
     }
