@@ -24,10 +24,10 @@ public class UserController : ControllerBase
     {
         var user = await _authService.GetUserFromToken(Request.Headers["Authorization"].ToString());
         if (user == null)
-            return Unauthorized(new { message = "Invalid or expired token" });
+            return Unauthorized(new { message = "error", details= "Invalid or expired token" });
 
         if (request == null)
-            return BadRequest(new { message = "Invalid input" });
+            return BadRequest(new { message = "error", details ="Invalid input" });
 
         if (!string.IsNullOrWhiteSpace(request.Username))
             user.Username = request.Username;
@@ -43,6 +43,7 @@ public class UserController : ControllerBase
         return Ok(new
         {
             message = "success",
+            details = "User updated successfully",
             user = new
             {
                 user.UID,
@@ -59,10 +60,10 @@ public class UserController : ControllerBase
     {
         var user = await _authService.GetUserFromToken(Request.Headers["Authorization"].ToString());
         if (user == null)
-            return Unauthorized(new { message = "Invalid or expired token" });
+            return Unauthorized(new { message = "error", details="Invalid or expired token" });
 
         if (file == null || file.Length == 0)
-            return BadRequest(new { message = "No file uploaded" });
+            return BadRequest(new { message = "error", details="No file uploaded" });
 
         try
         {
@@ -82,7 +83,7 @@ public class UserController : ControllerBase
             user.ProfilePic = imageUrl;
             await _context.SaveChangesAsync();
 
-            return Ok(new { message = "Image uploaded successfully", imageUrl = imageUrl });
+            return Ok(new { message = "success", details="Image uploaded successfully", imageUrl = imageUrl });
         }
         catch (Exception ex)
         {
