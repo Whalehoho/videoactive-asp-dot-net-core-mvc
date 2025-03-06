@@ -22,7 +22,7 @@ namespace VideoActive.Models
         public string? ProfilePic { get; set; }
 
         [Required]
-        public UserStatus Status { get; set; } = UserStatus.Offline;
+        public UserStatus Status { get; set; } = UserStatus.Online;
 
         [StringLength(300)]
         public string? Description {get; set;}

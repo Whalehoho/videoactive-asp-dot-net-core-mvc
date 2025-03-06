@@ -10,7 +10,6 @@ using System.Threading;
 using VideoActive.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
-using VideoActive.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
@@ -26,6 +25,8 @@ builder.WebHost.UseUrls("http://localhost:5000");
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Register AuthService
+builder.Services.AddScoped<AuthService>();
 
 // ✅ CORS Policy
 builder.Services.AddCors(options =>
@@ -34,8 +35,8 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins("http://localhost:3000") // 👈 Specify allowed frontend URL
               .AllowCredentials() // 👈 Allow cookies/tokens to be sent
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+                .AllowAnyHeader()
+                .AllowAnyMethod();
     });
 });
 
