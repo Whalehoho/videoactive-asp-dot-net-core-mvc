@@ -11,6 +11,7 @@ using VideoActive.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using VideoActive.WebSocketHandlers;
+using VideoActive.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
@@ -100,17 +101,51 @@ app.Use(async (context, next) =>
         var query = context.Request.Query;
 
         var socket = await context.WebSockets.AcceptWebSocketAsync();
+        
 
-        // if (path == "/ws/direct")
-        // {
-        //     string? clientId = query.ContainsKey("clientId") ? query["clientId"].ToString() : null;
-        //     await DirectCallHandler.HandleWebSocketAsync(socket, clientId);
-        // }
-        // else 
-        if (path == "/ws/random")
+        if (path == "/ws/direct")
+        {
+            Console.WriteLine("Direct call");
+            string? clientId = query.ContainsKey("clientId") ? query["clientId"].ToString() : null;
+            string? authToken = query.ContainsKey("authToken") ? query["authToken"].ToString() : null;
+            Console.WriteLine($"Client ID: {clientId}");
+            Console.WriteLine($"Auth Token: {authToken}");
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var authService = scope.ServiceProvider.GetRequiredService<AuthService>();
+                var user = await authService.GetUserFromToken(authToken);
+
+                if (user == null)
+                {
+                    await socket.CloseAsync(WebSocketCloseStatus.PolicyViolation, "Invalid or expired token", CancellationToken.None);
+                    return;
+                }
+
+                Console.WriteLine($"User ID: {user.UID}");
+                var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+                DirectCallHandler.Initialize(dbContext);
+                await DirectCallHandler.HandleWebSocketAsync(socket, user.UID.ToString());
+            }
+        }
+        else if (path == "/ws/random")
         {
             Console.WriteLine("Random call");
-            await RandomCallHandler.HandleWebSocketAsync(socket);
+            string? authToken = query.ContainsKey("authToken") ? query["authToken"].ToString() : null;
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var authService = scope.ServiceProvider.GetRequiredService<AuthService>();
+                var user = await authService.GetUserFromToken(authToken);
+
+                if (user == null)
+                {
+                    await socket.CloseAsync(WebSocketCloseStatus.PolicyViolation, "Invalid or expired token", CancellationToken.None);
+                    return;
+                }
+                await RandomCallHandler.HandleWebSocketAsync(socket, user.UID.ToString());
+            }
+
         }
         else
         {

@@ -73,7 +73,7 @@ public class AuthController : ControllerBase
     [HttpGet("getUser")]
     public async Task<IActionResult> ValidateToken()
     {
-        var user = await _authService.GetUserFromToken(Request.Headers["Authorization"].ToString());
+        var user = await _authService.GetUserFromHeader(Request.Headers["Authorization"].ToString());
         if (user == null)
             return Unauthorized(new { message = "Invalid or expired token" });
 

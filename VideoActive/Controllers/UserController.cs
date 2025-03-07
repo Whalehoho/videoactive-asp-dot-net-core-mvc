@@ -22,7 +22,7 @@ public class UserController : ControllerBase
     [HttpPost("updateUser")]
     public async Task<IActionResult> UpdateUser([FromBody] UpdateUserRequest request)
     {
-        var user = await _authService.GetUserFromToken(Request.Headers["Authorization"].ToString());
+        var user = await _authService.GetUserFromHeader(Request.Headers["Authorization"].ToString());
         if (user == null)
             return Unauthorized(new { message = "error", details= "Invalid or expired token" });
 
@@ -58,7 +58,7 @@ public class UserController : ControllerBase
     [HttpPost("updateImage")]
     public async Task<IActionResult> UpdateImage(IFormFile file)
     {
-        var user = await _authService.GetUserFromToken(Request.Headers["Authorization"].ToString());
+        var user = await _authService.GetUserFromHeader(Request.Headers["Authorization"].ToString());
         if (user == null)
             return Unauthorized(new { message = "error", details="Invalid or expired token" });
 

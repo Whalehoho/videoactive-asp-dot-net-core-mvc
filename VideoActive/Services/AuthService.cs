@@ -49,12 +49,25 @@ public class AuthService
     /// <summary>
     /// Extracts the user email from the JWT token and retrieves the user from the database.
     /// </summary>
-    public async Task<User?> GetUserFromToken(string authHeader)
+    public async Task<User?> GetUserFromHeader(string authHeader)
     {
         if (string.IsNullOrEmpty(authHeader) || !authHeader.StartsWith("Bearer "))
             return null;
 
         var token = authHeader.Substring("Bearer ".Length).Trim();
+        var principal = ValidateJwtToken(token);
+        if (principal == null)
+            return null;
+
+        var email = principal.FindFirst(ClaimTypes.Email)?.Value;
+        if (string.IsNullOrEmpty(email))
+            return null;
+
+        return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+    }
+
+    public async Task<User?> GetUserFromToken(string token)
+    {
         var principal = ValidateJwtToken(token);
         if (principal == null)
             return null;

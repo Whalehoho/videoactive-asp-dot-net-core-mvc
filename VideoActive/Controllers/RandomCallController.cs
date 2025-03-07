@@ -9,12 +9,15 @@ namespace VideoActive.WebSocketHandlers
         private static readonly List<WebSocket> waitingClients = new();
         private static readonly Dictionary<string, (WebSocket caller, WebSocket callee)> activePairs = new();
         private static readonly Dictionary<WebSocket, string> clientPairIds = new();
+        private static readonly Dictionary<string, WebSocket> clientSockets = new();
 
-        public static async Task HandleWebSocketAsync(WebSocket socket)
+        public static async Task HandleWebSocketAsync(WebSocket socket, string clientId)
         {
+            Console.WriteLine($"Client connected: {clientId}");
             lock (waitingClients)
             {
                 waitingClients.Add(socket);
+                clientSockets[clientId] = socket;
             }
             Console.WriteLine("Client added to random call queue.");
 
@@ -40,10 +43,10 @@ namespace VideoActive.WebSocketHandlers
                 await NotifyPair(client2, pairId, "callee");
             }
 
-            await ReceiveMessages(socket);
+            await ReceiveMessages(socket, clientId);
         }
 
-        private static async Task ReceiveMessages(WebSocket socket)
+        private static async Task ReceiveMessages(WebSocket socket, string clientId)
         {
             var buffer = new byte[8192];
             var messageBuilder = new StringBuilder();
@@ -131,6 +134,13 @@ namespace VideoActive.WebSocketHandlers
 
                     activePairs.Remove(pairId);
                 }
+            }
+
+            // Remove the clientId from the clientSockets dictionary
+            var clientId = clientSockets.FirstOrDefault(x => x.Value == socket).Key;
+            if (clientId != null)
+            {
+                clientSockets.Remove(clientId);
             }
         }
     }

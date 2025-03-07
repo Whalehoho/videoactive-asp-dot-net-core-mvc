@@ -984,3 +984,5 @@ C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Assi
 C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Assignment\video-active-server\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.pdb
 C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Assignment\video-active-server\video-call-backend\VideoActive\obj\Debug\net9.0\VideoActive.genruntimeconfig.cache
 C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Assignment\video-active-server\video-call-backend\VideoActive\obj\Debug\net9.0\ref\VideoActive.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Assignment\video-active-server\video-call-backend\VideoActive\bin\Debug\net9.0\Pipelines.Sockets.Unofficial.dll
+C:\Data\APU_degree3-sem2\Designing and Developing Applications on the Cloud\Assignment\video-active-server\video-call-backend\VideoActive\bin\Debug\net9.0\StackExchange.Redis.dll

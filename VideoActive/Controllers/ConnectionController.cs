@@ -24,7 +24,7 @@ public class ConnectionController : ControllerBase
     public async Task<IActionResult> GetUserContacts()
     {
         // ✅ Use AuthService to extract user from token
-        var user = await _authService.GetUserFromToken(Request.Headers["Authorization"].ToString());
+        var user = await _authService.GetUserFromHeader(Request.Headers["Authorization"].ToString());
         if (user == null)
             return Unauthorized(new { message = "error", details ="Invalid or expired token" });
 
@@ -51,7 +51,7 @@ public class ConnectionController : ControllerBase
         if (request == null)
             return BadRequest(new { message = "error", details = "Invalid request." });
 
-        var user = await _authService.GetUserFromToken(Request.Headers["Authorization"].ToString());
+        var user = await _authService.GetUserFromHeader(Request.Headers["Authorization"].ToString());
         if (user == null)
             return Unauthorized(new { message = "error", details ="Invalid or expired token" });
 
@@ -103,32 +103,48 @@ public class ConnectionController : ControllerBase
     [HttpPost("acceptContact")]
     public async Task<IActionResult> AcceptContact([FromBody] AddContactRequest request)
     {
+        // Console.WriteLine($"Friend ID: {request.FriendId}");
         if (request == null)
             return BadRequest(new { message = "error", details = "Invalid request." });
 
-        var user = await _authService.GetUserFromToken(Request.Headers["Authorization"].ToString());
+        var user = await _authService.GetUserFromHeader(Request.Headers["Authorization"].ToString());
         if (user == null)
             return Unauthorized(new { message = "error", details = "Invalid or expired token" });
 
-        // ✅ Find the existing pending relationship
+        // Check if the relationship exists and is already accepted
         var relationship = await _context.Relationships.FirstOrDefaultAsync(r =>
-            r.UserId == request.FriendId && r.FriendId == user.UID && r.Status == RelationshipStatus.Pending
-        );
+    (r.UserId == request.FriendId && r.FriendId == user.UID || r.UserId == user.UID && r.FriendId == request.FriendId) 
+    && r.Status == RelationshipStatus.Accepted
+);
 
-        if (relationship == null)
-            return NotFound(new { message = "success" , details = "No pending friend request found." });
+        // If already accepted, return success
+        if (relationship != null)
+        {
+            Console.WriteLine("Friend request already accepted.");
+            return Ok(new { message = "success", details = "Friend request already accepted." });
+        }
+        else
+        {
+            Console.WriteLine("Creating new relationship.");
+            // ✅ Directly create a new relationship with Accepted status, as there will not be any pending requests
+            var newRelationship = new Relationship
+            {
+                UserId = user.UID,
+                FriendId = request.FriendId,
+                Status = RelationshipStatus.Accepted
+            };
 
-        // ✅ Update status to Accepted
-        relationship.Status = RelationshipStatus.Accepted;
+            _context.Relationships.Add(newRelationship);
+        }
 
         try
         {
             await _context.SaveChangesAsync();
-            return Ok(new { message = "Friend request accepted successfully." });
+            return Ok(new { message = "success", details = "Friend request accepted successfully." });
         }
         catch (DbUpdateException ex)
         {
-            return StatusCode(500, new { message = "error", details = "Database error while updating relationship.", error = ex.Message });
+            return StatusCode(500, new { message = "error", details = "Database error while saving relationship.", error = ex.Message });
         }
     }
 
@@ -138,7 +154,7 @@ public class ConnectionController : ControllerBase
         if (request == null)
             return BadRequest(new { message = "error" , details ="Invalid request body." });
 
-        var user = await _authService.GetUserFromToken(Request.Headers["Authorization"].ToString());
+        var user = await _authService.GetUserFromHeader(Request.Headers["Authorization"].ToString());
         if (user == null)
             return Unauthorized(new { message = "error" , details = "Invalid or expired token" });
 
