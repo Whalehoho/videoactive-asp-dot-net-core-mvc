@@ -20,6 +20,11 @@ namespace VideoActive.Models
         [ForeignKey("ReceiverId")]
         public User Receiver { get; set; }
 
+        [Required]
+        public int CID { get; set; }
+        [ForeignKey("CID")]
+        public Chatbox Chatbox { get; set; }
+
         public string? MessageText { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
