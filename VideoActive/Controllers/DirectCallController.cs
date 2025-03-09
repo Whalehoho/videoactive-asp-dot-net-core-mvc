@@ -60,11 +60,11 @@ namespace VideoActive.WebSocketHandlers
             }
 
             // Check if client is already connected
-            if (clientPools.ContainsKey(clientId) && clientPools[clientId] != null)
-            {
-                Console.WriteLine($"Client {clientId} is already connected.");
-                return;
-            }
+            // if (clientPools.ContainsKey(clientId) && clientPools[clientId] != null)
+            // {
+            //     Console.WriteLine($"Client {clientId} is already connected.");
+            //     return;
+            // }
             // Add client to clientPools
             clientPools[clientId] = socket;
             // Set now to valkey

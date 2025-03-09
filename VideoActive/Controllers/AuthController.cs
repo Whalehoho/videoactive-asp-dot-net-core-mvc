@@ -25,6 +25,8 @@ public class AuthController : ControllerBase
     public IActionResult GoogleLogin()
     {
         var redirectUrl = Url.Action(nameof(GoogleResponse), "Auth");
+        Console.WriteLine("Redirect URL: " + redirectUrl);
+        // var redirectUrl = "https://8e7f-2001-f40-98e-ab91-f84f-df17-f719-6909.ngrok-free.app/auth/google/callback";
         var properties = new AuthenticationProperties { RedirectUri = redirectUrl };
         return Challenge(properties, GoogleDefaults.AuthenticationScheme);
     }
@@ -59,15 +61,14 @@ public class AuthController : ControllerBase
 
         var token = _authService.GenerateJwtToken(email);
 
-        Response.Cookies.Append("AuthToken", token, new CookieOptions
-        {
-            HttpOnly = true,
-            Secure = false, // Set to true in production
-            SameSite = SameSiteMode.Strict,
-            Expires = DateTime.UtcNow.AddHours(1)
-        });
+        // Return token using postMessage
+        var script = $@"
+            <script>
+                window.opener.postMessage({{ message: 'Login successful', token: '{token}' }}, '*');
+                window.close();
+            </script>";
+        return Content(script, "text/html");
 
-        return Redirect("http://localhost:3001/home");
     }
 
     [HttpGet("getUser")]

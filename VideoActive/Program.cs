@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using VideoActive.WebSocketHandlers;
 using VideoActive.Services;
+using Microsoft.AspNetCore.HttpOverrides;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
@@ -35,7 +36,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", policy =>
     {
-        policy.WithOrigins("http://localhost:3001") // 👈 Specify allowed frontend URL
+        policy.WithOrigins("http://localhost:3001", "https://8e7f-2001-f40-98e-ab91-f84f-df17-f719-6909.ngrok-free.app") // 👈 Specify allowed frontend URL. "*" does not allow credentials if credentials: "include" is used. Must explicitly specify.
               .AllowCredentials() // 👈 Allow cookies/tokens to be sent
                 .AllowAnyHeader()
                 .AllowAnyMethod();
@@ -82,6 +83,14 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
+
+// ✅ Enable Forwarded Headers Middleware, equivalent to app.set('trust proxy', 1) in Express
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto,
+    RequireHeaderSymmetry = false, // ✅ Needed for proxies like Ngrok
+    ForwardLimit = null // ✅ Allow multiple proxies
+});
 
 app.UseHttpsRedirection();
 app.UseRouting();
