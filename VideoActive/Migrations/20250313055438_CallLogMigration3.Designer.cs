@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using VideoActive.Models;
@@ -11,9 +12,11 @@ using VideoActive.Models;
 namespace VideoActive.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250313055438_CallLogMigration3")]
+    partial class CallLogMigration3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,10 +39,10 @@ namespace VideoActive.Migrations
                     b.Property<string>("CallType")
                         .HasColumnType("text");
 
-                    b.Property<int>("CalleeId")
+                    b.Property<int>("CalleeID")
                         .HasColumnType("integer");
 
-                    b.Property<int>("CallerId")
+                    b.Property<int>("CallerID")
                         .HasColumnType("integer");
 
                     b.Property<DateTime?>("EndTime")
@@ -50,7 +53,7 @@ namespace VideoActive.Migrations
                     b.HasIndex("CID")
                         .IsUnique();
 
-                    b.ToTable("CallLogs");
+                    b.ToTable("CallLog");
                 });
 
             modelBuilder.Entity("VideoActive.Models.Chatbox", b =>

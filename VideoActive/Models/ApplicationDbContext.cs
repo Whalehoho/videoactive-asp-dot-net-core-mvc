@@ -14,6 +14,7 @@ namespace VideoActive.Models
         public DbSet<Relationship> Relationships { get; set; }
         public DbSet<Message> Messages { get; set; }
         public DbSet<Chatbox> Chatboxes { get; set; }
+        public DbSet<CallLog> CallLogs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -62,6 +63,10 @@ namespace VideoActive.Models
                 .WithMany()
                 .HasForeignKey(c => c.UserId2)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<CallLog>()
+                .HasIndex(c => c.CID)
+                .IsUnique();
         }
     }
 }

@@ -1,6 +1,9 @@
 using System.Net.WebSockets;
 using System.Text;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using VideoActive.Models;
 
 namespace VideoActive.WebSocketHandlers
 {
@@ -10,6 +13,16 @@ namespace VideoActive.WebSocketHandlers
         private static readonly Dictionary<string, (WebSocket caller, WebSocket callee)> activePairs = new();
         private static readonly Dictionary<WebSocket, string> clientPairIds = new();
         private static readonly Dictionary<string, WebSocket> clientSockets = new();
+        private static readonly DbContextOptions<ApplicationDbContext> _dbOptions;
+
+        // Static constructor to initialize DB options
+        static RandomCallHandler()
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
+            optionsBuilder.UseNpgsql("");
+            _dbOptions = optionsBuilder.Options;
+        }
+
 
         public static async Task HandleWebSocketAsync(WebSocket socket, string clientId)
         {
@@ -41,6 +54,24 @@ namespace VideoActive.WebSocketHandlers
                 // Assign roles: client1 is caller, client2 is callee
                 await NotifyPair(client1, pairId, "caller");
                 await NotifyPair(client2, pairId, "callee");
+
+                // Log the start call
+                var callerId = clientSockets.FirstOrDefault(x => x.Value == client1).Key;
+                var calleeId = clientSockets.FirstOrDefault(x => x.Value == client2).Key;
+
+                // Create new DbContext instance
+                await using var dbContext = new ApplicationDbContext(_dbOptions);
+                var callLog = new CallLog
+                {
+                    CallerId = int.Parse(callerId),
+                    CalleeId = int.Parse(calleeId),
+                    CallTime = DateTime.UtcNow,
+                    CallType = "random"
+                };
+                dbContext.CallLogs.Add(callLog);
+                await dbContext.SaveChangesAsync();
+                
+
             }
 
             await ReceiveMessages(socket, clientId);
@@ -64,6 +95,20 @@ namespace VideoActive.WebSocketHandlers
                         }
                         await CleanupDisconnectedClient(socket);
                         await socket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Closed", CancellationToken.None);
+
+                        // Log the end call
+                        // Create new DbContext instance
+                        await using var dbContext = new ApplicationDbContext(_dbOptions);
+                        var callLog = await dbContext.CallLogs
+                            .FirstOrDefaultAsync(c => c.CallerId == int.Parse(clientId) && c.EndTime == null);
+                        
+                        if (callLog != null)
+                        {
+                            callLog.EndTime = DateTime.UtcNow;
+                            await dbContext.SaveChangesAsync();
+                        }
+
+
                         break;
                     }
                     else
@@ -95,6 +140,7 @@ namespace VideoActive.WebSocketHandlers
 
             var buffer = Encoding.UTF8.GetBytes(message);
             await client.SendAsync(new ArraySegment<byte>(buffer), WebSocketMessageType.Text, true, CancellationToken.None);
+
         }
 
         private static async Task ForwardMessage(WebSocket sender, string message)
@@ -130,9 +176,13 @@ namespace VideoActive.WebSocketHandlers
                         var message = JsonConvert.SerializeObject(new { type = "peer-disconnected" });
                         var buffer = Encoding.UTF8.GetBytes(message);
                         await otherClient.SendAsync(new ArraySegment<byte>(buffer), WebSocketMessageType.Text, true, CancellationToken.None);
+
+
                     }
 
                     activePairs.Remove(pairId);
+
+                   
                 }
             }
 
