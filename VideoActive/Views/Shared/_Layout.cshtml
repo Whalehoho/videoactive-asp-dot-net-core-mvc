@@ -30,6 +30,19 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Dashboard">Dashboard</a>
                         </li>
                     </ul>
+                    @if (User.Identity.IsAuthenticated)
+                {
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="btn" asp-controller="Admin" asp-action="ChangePassword">Change Password</a>
+                        </li>
+                        <li class="nav-item">
+                            <form asp-controller="Admin" asp-action="Logout" method="post">
+                                <button type="submit" class="btn">Logout</button>
+                            </form>
+                        </li>
+                    </ul>
+                }
                 </div>
             </div>
         </nav>

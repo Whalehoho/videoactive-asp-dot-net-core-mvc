@@ -1,0 +1,82 @@
+@model VideoActive.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <h2 class="text-center">Log in</h2>
+            <p class="text-center text-muted">Use your admin account to log in.</p>
+
+            <form asp-action="Login" method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    <label asp-for="Username" class="form-label">Username</label>
+                    <input asp-for="Username" class="form-control" placeholder="Enter your username" required>
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label">Password</label>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password" required>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Log in</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- 🔹 Password Update Modal -->
+<div id="updatePasswordModal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Update your password</h5>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-info">
+                    <strong>Continuing to use the default password exposes you to security risks.</strong>
+                </div>
+
+                <form id="updatePasswordForm" asp-action="UpdatePassword" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <input type="hidden" id="updateUsername" name="Username" />
+
+                    <div class="mb-3">
+                        <label for="newPassword" class="form-label">New password</label>
+                        <input type="password" id="newPassword" name="NewPassword" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Confirm new password</label>
+                        <input type="password" id="confirmPassword" name="ConfirmPassword" class="form-control" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+
+                <button class="btn btn-link mt-2 w-100" data-bs-dismiss="modal">Skip</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let needsPasswordUpdate = '@ViewData["NeedsPasswordUpdate"]' === "true";
+
+            if (needsPasswordUpdate) {
+                let username = '@ViewData["Username"]';
+                document.getElementById("updateUsername").value = username;
+                new bootstrap.Modal(document.getElementById("updatePasswordModal")).show();
+            }
+        });
+    </script>
+}

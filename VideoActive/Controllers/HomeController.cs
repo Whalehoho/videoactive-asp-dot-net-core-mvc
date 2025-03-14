@@ -1,9 +1,10 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using VideoActive.Models;
-
+using Microsoft.AspNetCore.Authorization;
 namespace VideoActive.Controllers;
 
+[Authorize]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -15,6 +16,11 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        if (!User.Identity.IsAuthenticated) 
+        {
+            return RedirectToAction("Login", "Admin"); // ✅ Redirect if not authenticated
+        }
+
         return View();
     }
 

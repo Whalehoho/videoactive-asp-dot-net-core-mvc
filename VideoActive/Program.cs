@@ -49,9 +49,16 @@ builder.Services.AddCors(options =>
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme; // ✅ Use Google for challenges
+     options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme; // ✅ Redirect to /Admin/Login
 })
-.AddCookie() // ✅ Cookie authentication
+.AddCookie(options =>
+    {
+        options.LoginPath = "/Admin/Login"; // Redirect to login page
+        options.AccessDeniedPath = "/Admin/Login"; // Handle unauthorized access
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(30); // Session expires after 30 minutes
+    }
+
+) // ✅ Cookie authentication
 .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
 {
     options.ClientId = builder.Configuration["Authentication:Google:ClientId"];

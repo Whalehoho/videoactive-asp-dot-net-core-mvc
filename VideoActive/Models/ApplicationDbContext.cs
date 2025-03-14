@@ -11,6 +11,7 @@ namespace VideoActive.Models
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Admin> Admins { get; set; }
         public DbSet<Relationship> Relationships { get; set; }
         public DbSet<Message> Messages { get; set; }
         public DbSet<Chatbox> Chatboxes { get; set; }
@@ -25,6 +26,10 @@ namespace VideoActive.Models
 
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Email)
+                .IsUnique();
+
+            modelBuilder.Entity<Admin>()
+                .HasIndex(a => a.Username)
                 .IsUnique();
 
             // Relationship Constraints
@@ -67,6 +72,7 @@ namespace VideoActive.Models
             modelBuilder.Entity<CallLog>()
                 .HasIndex(c => c.CID)
                 .IsUnique();
+                
         }
     }
 }
