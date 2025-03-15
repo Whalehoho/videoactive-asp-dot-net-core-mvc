@@ -4,5 +4,12 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+@if (ViewData["IsDefaultPassword"] as bool? == true)
+{
+    <div class="alert alert-info">
+        <strong>Continuing to use the default password exposes you to security risks.</strong>
+        <a class="btn btn-sm btn-warning ms-2" asp-controller="Admin" asp-action="ChangePassword">Update Now</a>
+    </div>
+}

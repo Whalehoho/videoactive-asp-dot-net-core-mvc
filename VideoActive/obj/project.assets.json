@@ -2,6 +2,7 @@
   "version": 3,
   "targets": {
     "net9.0": {
+<<<<<<< HEAD
       "AWSSDK.Core/3.7.402.18": {
         "type": "package",
         "compile": {
@@ -48,6 +49,21 @@
           "lib/netstandard1.3/DotNetEnv.dll": {}
         }
       },
+=======
+      "BCrypt.Net-Next/4.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+>>>>>>> 0465db62a814202fe2770c83afb9e9dfe6c1abe3
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -2693,6 +2709,7 @@
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "AWSSDK.Core/3.7.402.18": {
       "sha512": "rmoflrXXb8H1PPKBmUVaf8MiXcYwp3wLw21+9IQ+0J7UXgHtMTBgekRUjb7FJLacx76GRU57JvFt4BqT8yla+A==",
       "type": "package",
@@ -2766,6 +2783,37 @@
         "dotnetenv.3.1.1.nupkg.sha512",
         "dotnetenv.nuspec",
         "lib/netstandard1.3/DotNetEnv.dll"
+=======
+    "BCrypt.Net-Next/4.0.3": {
+      "sha512": "W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.0.3.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/net5.0/BCrypt.Net-Next.dll",
+        "lib/net5.0/BCrypt.Net-Next.xml",
+        "lib/net6.0/BCrypt.Net-Next.dll",
+        "lib/net6.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
+>>>>>>> 0465db62a814202fe2770c83afb9e9dfe6c1abe3
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -8418,8 +8466,12 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+<<<<<<< HEAD
       "AWSSDK.S3 >= 3.7.415.17",
       "DotNetEnv >= 3.1.1",
+=======
+      "BCrypt.Net-Next >= 4.0.3",
+>>>>>>> 0465db62a814202fe2770c83afb9e9dfe6c1abe3
       "Microsoft.AspNetCore.Authentication.Google >= 9.0.2",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.2",
       "Microsoft.AspNetCore.Cors >= 2.3.0",
@@ -8477,6 +8529,7 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+<<<<<<< HEAD
           "AWSSDK.S3": {
             "target": "Package",
             "version": "[3.7.415.17, )"
@@ -8484,6 +8537,11 @@
           "DotNetEnv": {
             "target": "Package",
             "version": "[3.1.1, )"
+=======
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.0.3, )"
+>>>>>>> 0465db62a814202fe2770c83afb9e9dfe6c1abe3
           },
           "Microsoft.AspNetCore.Authentication.Google": {
             "target": "Package",
