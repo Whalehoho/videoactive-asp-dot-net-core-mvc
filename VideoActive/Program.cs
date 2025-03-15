@@ -7,12 +7,16 @@ using Newtonsoft.Json;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
+using System.IO;
 using VideoActive.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using VideoActive.WebSocketHandlers;
 using VideoActive.Services;
 using Microsoft.AspNetCore.HttpOverrides;
+using Amazon;
+using Amazon.S3;
+using Amazon.S3.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
