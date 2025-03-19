@@ -61,6 +61,15 @@ public class AuthController : ControllerBase
 
         var token = _authService.GenerateJwtToken(email);
 
+        Response.Cookies.Append("AuthToken", token, new CookieOptions
+         {
+            Path = "/",
+            HttpOnly = true,
+            Secure = true, // Set to true in production
+            SameSite = SameSiteMode.Lax,
+            Expires = DateTime.UtcNow.AddHours(1)
+         });
+
         // Return token using postMessage
         var script = $@"
             <script>

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "VideoActive/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "3.7.415.19",
           "BCrypt.Net-Next": "4.0.3",
           "Microsoft.AspNetCore.Authentication.Google": "9.0.2",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.2",
@@ -22,6 +23,25 @@
         },
         "runtime": {
           "VideoActive.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.402.20": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.20"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.415.19": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.20"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.415.19"
+          }
         }
       },
       "BCrypt.Net-Next/4.0.3": {
@@ -766,6 +786,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.402.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5/POFNoag33ngGpXBYXDdHbQbuIWgvXUq1J5R1ifGDw1/qXxpc690DEkS/EoPqcFP3PnS7M0VBi5qjTaPbGV0Q==",
+      "path": "awssdk.core/3.7.402.20",
+      "hashPath": "awssdk.core.3.7.402.20.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.415.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zp5hMXtQxtRL7sr+HFVu1YXe39l20FqY1txE7MJQMXzC4Otqo3O1HHMrSFVrRMqSy6n6E2YSS0V5zAFDURhl5w==",
+      "path": "awssdk.s3/3.7.415.19",
+      "hashPath": "awssdk.s3.3.7.415.19.nupkg.sha512"
     },
     "BCrypt.Net-Next/4.0.3": {
       "type": "package",

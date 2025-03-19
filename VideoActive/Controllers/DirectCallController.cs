@@ -154,6 +154,14 @@ namespace VideoActive.WebSocketHandlers
         public static async Task Online(string clientId)
         {
 
+            // Set user status to online in the database
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.UID == int.Parse(clientId));
+            if (user != null)
+            {
+                user.Status = UserStatus.Online;
+                await _context.SaveChangesAsync();
+            }
+
             var contacts = await _context.Relationships
             .Where(r => (r.UserId == int.Parse(clientId) || r.FriendId == int.Parse(clientId)) && r.Status == RelationshipStatus.Accepted)
             .Select(r => new
@@ -219,6 +227,15 @@ namespace VideoActive.WebSocketHandlers
 
         public static async Task Offline(string clientId)
         {
+            // Set user status to offline in the database
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.UID == int.Parse(clientId));
+            if (user != null)
+            {
+                user.Status = UserStatus.Offline;
+                await _context.SaveChangesAsync();
+            }
+
+
             var contacts = await _context.Relationships
             .Where(r => (r.UserId == int.Parse(clientId) || r.FriendId == int.Parse(clientId)) && r.Status == RelationshipStatus.Accepted)
             .Select(r => new
