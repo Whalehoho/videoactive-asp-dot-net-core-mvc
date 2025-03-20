@@ -77,8 +77,19 @@ public class AdminController: Controller
 
     public async Task<IActionResult> Logout()
     {
-        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        Response.Cookies.Delete(".AspNetCore.Cookies");
+        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+            new AuthenticationProperties 
+            { 
+                ExpiresUtc = DateTime.UtcNow,
+                IsPersistent = false 
+            }
+        );
+        Response.Cookies.Append(".AspNetCore.Cookies", "", new CookieOptions
+        {
+            Expires = DateTime.UtcNow.AddDays(-1),
+            Secure = true,
+            HttpOnly = true
+        });
         return RedirectToAction("Login");
     }
 

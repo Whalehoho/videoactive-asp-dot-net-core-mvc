@@ -63,6 +63,7 @@ public class AuthController : ControllerBase
 
         Response.Cookies.Append("AuthToken", token, new CookieOptions
          {
+            Domain="kc123.me",
             Path = "/",
             HttpOnly = true,
             Secure = true, // Set to true in production

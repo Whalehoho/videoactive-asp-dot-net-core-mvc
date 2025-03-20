@@ -86,6 +86,14 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization();
 builder.Services.AddEndpointsApiExplorer(); // Required for WebSockets
 
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+    options.KnownNetworks.Clear();
+    options.KnownProxies.Clear();
+});
+
+
 var app = builder.Build();
 
 // ✅ Correct Middleware Order
@@ -95,13 +103,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-// ✅ Enable Forwarded Headers Middleware, equivalent to app.set('trust proxy', 1) in Express
-app.UseForwardedHeaders(new ForwardedHeadersOptions
-{
-    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto,
-    RequireHeaderSymmetry = false, // ✅ Needed for proxies like Ngrok
-    ForwardLimit = null // ✅ Allow multiple proxies
-});
+app.UseForwardedHeaders();
+
 
 app.UseHttpsRedirection();
 app.UseRouting();
