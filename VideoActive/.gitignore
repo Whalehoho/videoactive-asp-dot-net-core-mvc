@@ -1,0 +1,5 @@
+video-call-backend-main.sln
+VideoActive/bin/
+VideoActive/obj/
+VideoActive/publish/
+appsettings.json

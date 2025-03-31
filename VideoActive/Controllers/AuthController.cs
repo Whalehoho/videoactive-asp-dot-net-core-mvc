@@ -107,9 +107,16 @@ public class AuthController : ControllerBase
     [HttpPost("logout")]
     public IActionResult Logout()
     {
-        Response.Cookies.Delete(".AspNetCore.Cookies");
-        Response.Cookies.Delete("AuthToken");
+        var cookieOptions = new CookieOptions
+        {
+            Domain = "kc123.me",  // MUST match the one used when setting
+            Path = "/"
+        };
+
+        Response.Cookies.Delete("AuthToken", cookieOptions);
+        Response.Cookies.Delete(".AspNetCore.Cookies", cookieOptions); // if needed
 
         return Ok(new { message = "Logged out successfully" });
     }
+
 }
