@@ -18,11 +18,12 @@ namespace VideoActive.WebSocketHandlers
         // Static constructor to initialize DB options
         static RandomCallHandler()
         {
+            var connectionString = ConfigHelper.GetConnectionString("DefaultConnection");
+
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-            optionsBuilder.UseNpgsql("");
+            optionsBuilder.UseNpgsql(connectionString);
             _dbOptions = optionsBuilder.Options;
         }
-
 
         public static async Task HandleWebSocketAsync(WebSocket socket, string clientId)
         {
@@ -193,5 +194,19 @@ namespace VideoActive.WebSocketHandlers
                 clientSockets.Remove(clientId);
             }
         }
+
+        public static class ConfigHelper
+        {
+            public static string GetConnectionString(string name = "DefaultConnection")
+            {
+                var configuration = new ConfigurationBuilder()
+                    .SetBasePath(AppContext.BaseDirectory) // or Directory.GetCurrentDirectory() depending on setup
+                    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                    .Build();
+
+                return configuration.GetConnectionString(name);
+            }
+        }
+
     }
 }

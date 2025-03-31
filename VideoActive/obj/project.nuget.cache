@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6MysdntWcXw=",
+  "dgSpecHash": "oHwe/S7Kqr4=",
   "success": true,
-  "projectFilePath": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\VideoActive.csproj",
+  "projectFilePath": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\videoactive-asp-dot-net-core-mvc\\VideoActive\\VideoActive.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\awssdk.core\\3.7.402.20\\awssdk.core.3.7.402.20.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\awssdk.s3\\3.7.415.19\\awssdk.s3.3.7.415.19.nupkg.sha512",

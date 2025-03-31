@@ -63,7 +63,7 @@ public class AuthController : ControllerBase
 
         Response.Cookies.Append("AuthToken", token, new CookieOptions
          {
-            Domain="kc123.me",
+            Domain=".kc123.me",
             Path = "/",
             HttpOnly = true,
             Secure = true, // Set to true in production
@@ -109,7 +109,7 @@ public class AuthController : ControllerBase
     {
         var cookieOptions = new CookieOptions
         {
-            Domain = "kc123.me",  // MUST match the one used when setting
+            Domain = ".kc123.me",  // MUST match the one used when setting
             Path = "/"
         };
 

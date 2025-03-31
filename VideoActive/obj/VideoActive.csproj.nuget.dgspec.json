@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\VideoActive.csproj": {}
+    "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\videoactive-asp-dot-net-core-mvc\\VideoActive\\VideoActive.csproj": {}
   },
   "projects": {
-    "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\VideoActive.csproj": {
+    "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\videoactive-asp-dot-net-core-mvc\\VideoActive\\VideoActive.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\VideoActive.csproj",
+        "projectUniqueName": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\videoactive-asp-dot-net-core-mvc\\VideoActive\\VideoActive.csproj",
         "projectName": "VideoActive",
-        "projectPath": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\VideoActive.csproj",
+        "projectPath": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\videoactive-asp-dot-net-core-mvc\\VideoActive\\VideoActive.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\video-active-server\\video-call-backend\\VideoActive\\obj\\",
+        "outputPath": "C:\\Data\\APU_degree3-sem2\\Designing and Developing Applications on the Cloud\\Assignment\\videoactive-asp-dot-net-core-mvc\\VideoActive\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
